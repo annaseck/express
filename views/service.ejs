@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <%- include('./composants/header') %>
+    <section class="service">
+        <h2>Nos services</h2>
+        <ul>
+            <% for(let i=0; i<services.length; i++){ %>
+                <li><%= services[i] %></li>
+            <% } %>
+        </ul>
+    </section>
+    <%- include('./composants/footer') %>
+</body>
+</html>

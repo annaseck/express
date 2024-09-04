@@ -1,0 +1,69 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+.index{
+    background: url(img/imageDeFond.png) center/cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.index p{
+    font-weight: bold;
+}
+.index button{
+    width: 200px;
+    background-color:rgb(102, 102, 179);
+    padding: 15px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+  }
+.contact input,
+textarea {
+  padding: 15px;
+  border-radius: 3px;
+  border: 1px solid black;
+}
+
+.contact label {
+  margin-bottom: 8px;
+}
+
+.contact input[type='submit'] {
+  width: 200px;
+  margin: auto;
+  margin-top: 30px;
+  border: 1px solid black;
+  background-color: blue;
+}
+.service{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.service h2{
+    font-family: "Lobster";
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 100px;
+}

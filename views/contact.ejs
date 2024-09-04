@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <%- include('./composants/header') %>
+
+    <section class="contact">
+        <form action="">
+            <label for="nom">Nom: </label><br>
+            <input type="text" name="nom" id="nom"><br>
+            <label for="email">Email: </label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="message">Votre message: </label><br>
+            <textarea name="message" id="message"></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+    
+    <%- include('./composants/footer') %>
+</body>
+</html>
